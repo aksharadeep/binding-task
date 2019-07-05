@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { Comp1Component } from './comp1/comp1.component';
+import { Task1Component } from './task1/task1.component';
 
 @NgModule({
-  declarations: [ Comp1Component],
-  imports: [ CommonModule],
-  exports: [Comp1Component]
+  declarations: [Task1Component],
+  imports: [
+    CommonModule
+  ],
+  exports: [Task1Component]
 })
 export class Task1Module { }

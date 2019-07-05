@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Comp1Component } from './comp1/comp1.component';
-import { FormsModule} from '@angular/forms';
+import { Task2Component } from './task2/task2.component';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
-  declarations: [Comp1Component],
+  declarations: [Task2Component],
   imports: [
     CommonModule,
     FormsModule
   ],
-  exports:[Comp1Component]
+  exports: [ Task2Component]
 })
 export class Task2Module { }

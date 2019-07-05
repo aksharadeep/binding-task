@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ParentComponent } from './parent/parent.component';
 import { Sibling1Component } from './sibling1/sibling1.component';
 import { Sibling2Component } from './sibling2/sibling2.component';
-import { UsersService } from '../services/users.service';
+import { UsersService } from '../users.service';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
