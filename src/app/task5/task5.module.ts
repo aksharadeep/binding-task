@@ -9,6 +9,6 @@ import { SubComponent } from './sub/sub.component';
   imports: [
     CommonModule
   ],
-  exports:[MainComponent, MiddleComponent, SubComponent]
+  exports: [MainComponent, MiddleComponent, SubComponent]
 })
 export class Task5Module { }

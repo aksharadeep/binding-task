@@ -9,6 +9,7 @@ import { Task2Module } from './task2/task2.module';
 import { Task4Module } from './task4/task4.module';
 import { Task5Module } from './task5/task5.module';
 import { Task6Module } from './task6/task6.module';
+import { Task7Module } from './task7/task7.module';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { Task6Module } from './task6/task6.module';
     Task2Module,
     Task4Module,
     Task5Module,
-    Task6Module
+    Task6Module,
+    Task7Module
   ],
   providers: [],
   bootstrap: [AppComponent]
